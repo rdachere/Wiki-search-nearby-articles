@@ -1,0 +1,16 @@
+This project includes all the files/directories needed to use the web app to find nearby Wikipedia articles given a client's
+location (laptop, desktop or mobile).  The articles are then plotted using Google Maps with custom markers.
+
+Download all files/directories to your favority LAMP stack installation dir.  None of this code requires a DB, so you 
+don't really need MySql.
+
+The index.php file contains one big button which starts the process of locating and mapping the client and the articles.
+The nearby_search.php file contains code to locate the client and then calls the map_nearby_articles.php code to 
+perform the search and map the results onto Google maps.
+The img directory contains the marker images for the articles as well as the big button image.
+
+This code is open source - so feel free to modify and share.  It was written in approximately 2.5 hours at the Wikipedia
+hackathon in SF on January 21/22 (sans network issues and hardware issues etc.).  The marker images were created by 
+Rosemary Mckeon.  The design for the Wikipedia article marker was done by me.
+
+~rdachere
